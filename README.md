@@ -15,6 +15,9 @@ Welcome to the Productivity App! This app is designed to help you manage your ta
 
 - Add tasks
 -  ![photo_2024-06-16_19-34-58](https://github.com/Meghshyam11/wecodeProject/assets/136561319/84e16fb7-74f6-45af-890a-62f1cb1e0c4a)
+
+-  ![image](https://github.com/Meghshyam11/wecodeProject/assets/136561319/2b982b36-af90-4a62-b72f-a7ed0c4ef848)
+
 -  
 
 - Create task list
