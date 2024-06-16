@@ -13,11 +13,14 @@ Welcome to the Productivity App! This app is designed to help you manage your ta
 
 ## Core features include
 
-- Add tasks ![photo_2024-06-16_19-34-58](https://github.com/Meghshyam11/wecodeProject/assets/136561319/84e16fb7-74f6-45af-890a-62f1cb1e0c4a)
+- Add tasks
+-  ![photo_2024-06-16_19-34-58](https://github.com/Meghshyam11/wecodeProject/assets/136561319/84e16fb7-74f6-45af-890a-62f1cb1e0c4a)
 
-- Create task list ![photo_2024-06-16_19-35-06](https://github.com/Meghshyam11/wecodeProject/assets/136561319/10c82398-7292-41ac-9f91-146f449ffb2a)
+- Create task list
+-  ![photo_2024-06-16_19-35-06](https://github.com/Meghshyam11/wecodeProject/assets/136561319/10c82398-7292-41ac-9f91-146f449ffb2a)
 
-- Track your task time ![photo_2024-06-16_19-35-08](https://github.com/Meghshyam11/wecodeProject/assets/136561319/a3710d96-521f-4b79-aced-091a1ad28821)
+- Track your task time
+- ![photo_2024-06-16_19-35-08](https://github.com/Meghshyam11/wecodeProject/assets/136561319/a3710d96-521f-4b79-aced-091a1ad28821)
 
 - 
 
