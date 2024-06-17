@@ -1,17 +1,49 @@
-import { useState } from 'react'
+import { Suspense, lazy } from "react";
+import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+
+const Dashboard = lazy(() => import("./components/Dashboard"));
+const LandingPage = lazy(() => import("./components/Landing"));
+const ToDo = lazy(() => import("./components/ToDo"));
 
 function App() {
-  const [count, setCount] = useState(0)
+  //used suspense API so that only required bundle will come from the backend server
+  // Increase optimization
 
   return (
     <>
-      <div className="flex m-4 p-4">
-          <div className='text-4xl m-4 p-4'>Pranshu Girlfriends = </div>
-          <div className='text-4xl m-4 p-4'>{count}</div>
-      </div>
-      <button className='text-6xl border-4 ml-24 px-4 pb-4' onClick={()=>setCount(count+1)} >+</button>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Suspense fallback={"loading..."}>
+                {" "}
+                <LandingPage />{" "}
+              </Suspense>
+            }
+          />
+          <Route
+            path="/dashboard"
+            element={
+              <Suspense fallback={"loading..."}>
+                {" "}
+                <Dashboard />{" "}
+              </Suspense>
+            }
+          />
+          <Route
+            path="/todo"
+            element={
+              <Suspense fallback={"loading..."}>
+                {" "}
+                <ToDo />{" "}
+              </Suspense>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
